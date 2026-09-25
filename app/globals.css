@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #0a0d16;
+  color: #e8ecf5;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(155, 107, 242, 0.35);
+}
+
+/* Hairline scrollbar, matches the console's flat surfaces */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2740;
+  border-radius: 8px;
+  border: 2px solid #0a0d16;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3352;
+}
+
+/* Visible keyboard focus everywhere, styled to match the console */
+:focus-visible {
+  outline: 2px solid #9b6bf2;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
