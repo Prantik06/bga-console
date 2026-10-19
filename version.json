@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkUrl": "https://github.com/YOURNAME/myapp-updates/releases/download/v1.1/myapp.apk",
-  "changelog": "Fixed bugs, added new features",
-  "sha256": ""
+  "versionCode": 3,
+  "versionName": "1.2",
+  "apkUrl": "https://github.com/Prantik06/bga-console/releases/download/v.1.2/app-release.apk",
+  "changelog": "Fixed bugs, added new features, UI improved",
+  "sha256": "sha256:483427c10b2456a2e30ec1857fe7ded3cf4524f110b077440a51943476e34eb3"
 }
