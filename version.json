@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "apkUrl": "https://github.com/Prantik06/bga-console/releases/download/v1.4/app-release.apk",
-  "changelog": "Fixed bugs, added new features, UI improved, SIUUUUU",
+  "versionCode": 6,
+  "versionName": "1.5",
+  "apkUrl": "https://github.com/Prantik06/bga-console/releases/download/v1.5/app-release.apk",
+  "changelog": "Fixed bugs, added new features, UI improved, Tournament bugs fixed, realtime database update, SIUUUUU",
   "sha256": ""
 }
